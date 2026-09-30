@@ -1,4 +1,4 @@
-const CACHE_NAME = "legatus-shell-v1";
+const CACHE_NAME = "folego-shell-v1";
 const APP_SHELL = ["/", "/icon.svg", "/manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {

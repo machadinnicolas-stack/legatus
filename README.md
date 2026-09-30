@@ -1,6 +1,6 @@
-# Legatus
+# Fôlego
 
-Mapa de conquistas mobile-first. A primeira versão transforma objetivos financeiros em uma rota com prioridades, aportes, previsões e impacto entre metas.
+Aplicativo mobile-first para quem compra parcelado e quer saber quanto do próximo salário já está comprometido.
 
 ## Executar
 
@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Abra `http://localhost:3000`.
+Abra `http://localhost:3000` — ou a porta indicada pelo Next.js caso ela já esteja ocupada.
 
 ## Validações
 
@@ -20,14 +20,15 @@ npm run build
 
 ## Estado atual
 
-- Onboarding e demonstração guiada
-- Metas de carro, moto, celular, viagem, casa, reserva e personalizada
-- Distribuição automática do orçamento mensal por prioridade
-- Previsões, progresso e registro de aportes
-- Comparação do impacto entre conquistas
-- Linha do tempo estratégica
-- Persistência local e instalação como PWA
+- Onboarding com salário líquido, gastos fixos e dia de pagamento
+- Cadastro e acompanhamento de parcelas
+- Registro mensal de pagamentos
+- Margem estimada depois dos compromissos informados
+- Previsão visual dos próximos 12 meses
+- Simulador “Posso parcelar isso?”
+- Histórico de parcelas concluídas
+- Persistência local, sem conexão bancária ou login
 
 ## Próxima etapa
 
-Depois de validar produto e identidade, conectar autenticação, sincronização e pagamentos. As variáveis previstas para a nuvem estão em `.env.example`.
+Validar a proposta com conteúdo orgânico e acompanhar quantas pessoas concluem a primeira simulação antes de adicionar cobrança e autenticação.
